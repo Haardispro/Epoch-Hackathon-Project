@@ -69,7 +69,7 @@ def overlay_button():
     tkinter.messagebox.showinfo("Information", "Your tracks have been overlayed, Your file has been saved to output.wav")    
     play_overlayed_song = Button(w, text="Play overlayed song", font=fonts, command=open_html)
     play_overlayed_song.grid(row=4, column=1, padx=10, pady=10)
-    os.system("sudo rm temp/*")
+    os.system("rm temp/*")
 
 def open_link():
     os.system("python audiomixerlink.py")
