@@ -114,6 +114,6 @@ overlay_process_button = Button(w, text="Start", font=fonts, command=overlay_but
 overlay_process_button.grid(row=3, column=1, padx=10, pady=10)
 
 link_button = Button(text="Link Feature", font=fonts, command=open_link)
-link_button.grid(row=4, column=1, padx=10, pady=10)
+link_button.grid(row=5, column=1, padx=10, pady=10)
 
 w.mainloop()
