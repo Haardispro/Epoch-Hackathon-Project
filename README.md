@@ -30,7 +30,7 @@ Dowmload and mix the background track of one song and the vocals of another in l
 pip install pydub pytube youtube_search
 ```
 
-## Installation and firt run
+## Installation and first run
 Run the following commands in a terminal to install and run the script:
 ```
 git clone https://github.com/Haardispro/Epoch-Hackathon-Project.git
@@ -45,4 +45,3 @@ python audiomixer.py
 3. Click on 'Download Backgroud track' and 'Download Vocal track'
 4. Click on 'Start'
 5. Click on 'Play overlayed song'
-# install dependencies
